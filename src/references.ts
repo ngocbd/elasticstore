@@ -1,13 +1,12 @@
-import { Reference } from "./types";
+import { Reference } from "./types"
 
 // Records should be added here to be indexed / made searchable
 const references: Array<Reference> = [
   {
-    collection: 'users',
-    type: 'users',
-    index: 'users',
-    include: ['firstName', 'lastName', 'email'],
-  }
+    collection: "example",
+    index: "example",
+    include: ["name", "email", "biography", "updatedAt", "createdAt"],
+  },
 ]
 
 export default references
